@@ -1,0 +1,68 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 3.9679303278688525,
+        "y": 5.313678278688524
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 3.763478723043661,
+        "y": 5.457551630232178
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 1.0968749999999998,
+        "y": 6.988486842105263
+      },
+      "prevControl": {
+        "x": 1.2692887931034478,
+        "y": 6.807452359346642
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "HP Left Going In"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [
+    {
+      "name": "Constraints Zone",
+      "minWaypointRelativePos": 0.7450142450142448,
+      "maxWaypointRelativePos": 1.0,
+      "constraints": {
+        "maxVelocity": 1.5,
+        "maxAcceleration": 2.0,
+        "maxAngularVelocity": 1000.0,
+        "maxAngularAcceleration": 1000.0,
+        "nominalVoltage": 12.0,
+        "unlimited": false
+      }
+    }
+  ],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.75,
+    "maxAcceleration": 5.0,
+    "maxAngularVelocity": 1000.0,
+    "maxAngularAcceleration": 1000.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0.0,
+    "rotation": -53.42696902148066
+  },
+  "reversed": false,
+  "folder": "Four L4 Left Paths",
+  "idealStartingState": {
+    "velocity": 2.0,
+    "rotation": -62.74467162505688
+  },
+  "useDefaultConstraints": false
+}

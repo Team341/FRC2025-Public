@@ -1,0 +1,66 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 6.09375,
+        "y": 3.9762499999999994
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 7.09375,
+        "y": 3.9762499999999994
+      },
+      "isLocked": false,
+      "linkedName": "Central Path 1 End"
+    },
+    {
+      "anchor": {
+        "x": 5.986500000000001,
+        "y": 0.6319999999999993
+      },
+      "prevControl": {
+        "x": 5.957249999999999,
+        "y": 1.6752499999999997
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Algae_Score"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [
+    {
+      "name": "Algae Score",
+      "waypointRelativePos": 0.5531813865147157,
+      "endWaypointRelativePos": null,
+      "command": {
+        "type": "named",
+        "data": {
+          "name": "Algae Go To Score"
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 4.75,
+    "maxAcceleration": 50.0,
+    "maxAngularVelocity": 1000.0,
+    "maxAngularAcceleration": 1000.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -88.21008939175411
+  },
+  "reversed": false,
+  "folder": "Central Paths",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 180.0
+  },
+  "useDefaultConstraints": true
+}

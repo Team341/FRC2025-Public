@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 6.09375,
+        "y": 3.9762499999999994
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 6.497176229508197,
+        "y": 5.5593463114754105
+      },
+      "isLocked": false,
+      "linkedName": "Central Path 1 End"
+    },
+    {
+      "anchor": {
+        "x": 5.15775,
+        "y": 5.155999999999999
+      },
+      "prevControl": {
+        "x": 6.084,
+        "y": 4.502749999999998
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Central Path 2 End"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.75,
+    "maxAcceleration": 5.0,
+    "maxAngularVelocity": 1000.0,
+    "maxAngularAcceleration": 1000.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -120.46554491945983
+  },
+  "reversed": false,
+  "folder": "Central Paths",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 180.0
+  },
+  "useDefaultConstraints": false
+}

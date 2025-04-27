@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 5.346516393442624,
+        "y": 5.0499487704918025
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 5.082603555784813,
+        "y": 5.157824645560248
+      },
+      "isLocked": false,
+      "linkedName": "Four L4 Left Start to 11"
+    },
+    {
+      "anchor": {
+        "x": 1.5344262295081967,
+        "y": 6.93201844262295
+      },
+      "prevControl": {
+        "x": 1.7619890377645036,
+        "y": 6.828504345522587
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Four L4 11 to HP Ground"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.75,
+    "maxAcceleration": 50.0,
+    "maxAngularVelocity": 1000.0,
+    "maxAngularAcceleration": 1000.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -53.42696902148066
+  },
+  "reversed": false,
+  "folder": "Four L4 Left Ground",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": -119.99999999999999
+  },
+  "useDefaultConstraints": true
+}

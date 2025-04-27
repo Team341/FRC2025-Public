@@ -1,0 +1,80 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 1.174795081967213,
+        "y": 2.1848872950819667
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 1.4088507882170758,
+        "y": 2.4390885138770004
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 3.020901639344262,
+        "y": 4.1748463114754095
+      },
+      "prevControl": {
+        "x": 2.8516895576860493,
+        "y": 3.990815685163118
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "CCR3"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [
+    {
+      "name": "Constraints Zone",
+      "minWaypointRelativePos": 0.5512820512820519,
+      "maxWaypointRelativePos": 1.0,
+      "constraints": {
+        "maxVelocity": 3.0,
+        "maxAcceleration": 2.0,
+        "maxAngularVelocity": 1000.0,
+        "maxAngularAcceleration": 1000.0,
+        "nominalVoltage": 12.0,
+        "unlimited": false
+      }
+    }
+  ],
+  "pointTowardsZones": [],
+  "eventMarkers": [
+    {
+      "name": "Flip Stow",
+      "waypointRelativePos": 0.40313390313389896,
+      "endWaypointRelativePos": null,
+      "command": {
+        "type": "parallel",
+        "data": {
+          "commands": []
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 4.75,
+    "maxAcceleration": 50.0,
+    "maxAngularVelocity": 1000.0,
+    "maxAngularAcceleration": 1000.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 180.0
+  },
+  "reversed": false,
+  "folder": "CenterCoralRight",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": -133.95837332399014
+  },
+  "useDefaultConstraints": true
+}

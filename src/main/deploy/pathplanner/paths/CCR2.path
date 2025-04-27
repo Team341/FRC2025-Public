@@ -1,0 +1,85 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 2.817110655737705,
+        "y": 3.623411885245902
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 2.731990085409307,
+        "y": 3.3373419815630907
+      },
+      "isLocked": false,
+      "linkedName": "CCR1"
+    },
+    {
+      "anchor": {
+        "x": 1.8580942622950818,
+        "y": 2.8561987704918033
+      },
+      "prevControl": {
+        "x": 2.0316269823591844,
+        "y": 3.0361609750436314
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.35,
+      "rotationDegrees": -133.958
+    }
+  ],
+  "constraintZones": [
+    {
+      "name": "Constraints Zone",
+      "minWaypointRelativePos": 0.4202279202279217,
+      "maxWaypointRelativePos": 1.0,
+      "constraints": {
+        "maxVelocity": 0.75,
+        "maxAcceleration": 1.0,
+        "maxAngularVelocity": 1000.0,
+        "maxAngularAcceleration": 1000.0,
+        "nominalVoltage": 12.0,
+        "unlimited": false
+      }
+    }
+  ],
+  "pointTowardsZones": [],
+  "eventMarkers": [
+    {
+      "name": "Vertical Intake",
+      "waypointRelativePos": 0.0,
+      "endWaypointRelativePos": null,
+      "command": {
+        "type": "named",
+        "data": {
+          "name": "Vertical Intake"
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 4.75,
+    "maxAcceleration": 50.0,
+    "maxAngularVelocity": 1000.0,
+    "maxAngularAcceleration": 1000.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -133.958
+  },
+  "reversed": false,
+  "folder": "CenterCoralRight",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": -179.0451587461278
+  },
+  "useDefaultConstraints": true
+}

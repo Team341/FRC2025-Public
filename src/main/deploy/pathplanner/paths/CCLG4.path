@@ -1,0 +1,71 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 3.1168032786885256,
+        "y": 4.246772540983606
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 2.5054303278688526,
+        "y": 4.558452868852458
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 1.5823770491803282,
+        "y": 5.397592213114754
+      },
+      "prevControl": {
+        "x": 2.2776639344262297,
+        "y": 4.7982069672131145
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.5,
+      "rotationDegrees": -45.0
+    }
+  ],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [
+    {
+      "name": "Ground Intake",
+      "waypointRelativePos": 0.0,
+      "endWaypointRelativePos": null,
+      "command": {
+        "type": "named",
+        "data": {
+          "name": "Intake Ground"
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 4.75,
+    "maxAcceleration": 5.0,
+    "maxAngularVelocity": 1000.0,
+    "maxAngularAcceleration": 1000.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 1.0,
+    "rotation": -48.87467320356514
+  },
+  "reversed": false,
+  "folder": "CenterCoralLeftGround",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": -0.9877603996397933
+  },
+  "useDefaultConstraints": false
+}

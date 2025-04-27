@@ -1,0 +1,68 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 1.1628073770491802,
+        "y": 7.003944672131147
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 1.4521089156103768,
+        "y": 6.755744532533148
+      },
+      "isLocked": false,
+      "linkedName": "HP LEFT"
+    },
+    {
+      "anchor": {
+        "x": 3.8600409836065577,
+        "y": 5.625358606557377
+      },
+      "prevControl": {
+        "x": 3.624583925670805,
+        "y": 5.8472417222299935
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Four L4 Left HP to 8 End"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [
+    {
+      "name": "Constraints Zone",
+      "minWaypointRelativePos": 0.8304843304843302,
+      "maxWaypointRelativePos": 1.0,
+      "constraints": {
+        "maxVelocity": 4.75,
+        "maxAcceleration": 50.0,
+        "maxAngularVelocity": 1000.0,
+        "maxAngularAcceleration": 1000.0,
+        "nominalVoltage": 12.0,
+        "unlimited": false
+      }
+    }
+  ],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.75,
+    "maxAcceleration": 5.0,
+    "maxAngularVelocity": 1000.0,
+    "maxAngularAcceleration": 1000.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0.5,
+    "rotation": -60.255118703057704
+  },
+  "reversed": false,
+  "folder": "Four L4 Left Paths",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": -54.11786275379582
+  },
+  "useDefaultConstraints": false
+}

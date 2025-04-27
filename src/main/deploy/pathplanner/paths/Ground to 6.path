@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 0.7549918831168831,
+        "y": 2.7927962662337653
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 0.7692370129870131,
+        "y": 3.2984983766233764
+      },
+      "isLocked": false,
+      "linkedName": "5 to Ground End"
+    },
+    {
+      "anchor": {
+        "x": 3.176663961038961,
+        "y": 3.8469358766233763
+      },
+      "prevControl": {
+        "x": 1.8589894480519478,
+        "y": 3.8469358766233763
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.75,
+    "maxAcceleration": 5.0,
+    "maxAngularVelocity": 1000.0,
+    "maxAngularAcceleration": 1000.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0.0,
+    "rotation": 0.0
+  },
+  "reversed": false,
+  "folder": "Four L4 Right Paths",
+  "idealStartingState": {
+    "velocity": 4.0,
+    "rotation": -7.236922025967929
+  },
+  "useDefaultConstraints": false
+}

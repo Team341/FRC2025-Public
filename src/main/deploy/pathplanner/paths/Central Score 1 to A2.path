@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 5.986500000000001,
+        "y": 0.6319999999999993
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 6.986500000000001,
+        "y": 0.6319999999999997
+      },
+      "isLocked": false,
+      "linkedName": "Algae_Score"
+    },
+    {
+      "anchor": {
+        "x": 5.31375,
+        "y": 2.679499999999999
+      },
+      "prevControl": {
+        "x": 6.815250000000001,
+        "y": 1.8409999999999984
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Central_A2"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.75,
+    "maxAcceleration": 50.0,
+    "maxAngularVelocity": 1000.0,
+    "maxAngularAcceleration": 1000.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 123.0238675557967
+  },
+  "reversed": false,
+  "folder": "Central Paths",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": -88.21008939175411
+  },
+  "useDefaultConstraints": true
+}

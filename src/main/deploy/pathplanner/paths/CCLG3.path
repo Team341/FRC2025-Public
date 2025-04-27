@@ -1,0 +1,131 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 3.1005000000000003,
+        "y": 4.161499999999999
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 2.6209918032786885,
+        "y": 2.567135245901639
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 0.9165000000000001,
+        "y": 2.474749999999999
+      },
+      "prevControl": {
+        "x": 0.09099342944265898,
+        "y": 1.3207255085065728
+      },
+      "nextControl": {
+        "x": 1.8719999999999994,
+        "y": 3.8104999999999993
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 2.97375,
+        "y": 3.8397499999999996
+      },
+      "prevControl": {
+        "x": 2.750143202250021,
+        "y": 3.7279466011250095
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.3622047244094498,
+      "rotationDegrees": 20.0
+    },
+    {
+      "waypointRelativePos": 1.0072440944881824,
+      "rotationDegrees": 64.20455787405506
+    },
+    {
+      "waypointRelativePos": 1.346039813638288,
+      "rotationDegrees": 0.0
+    }
+  ],
+  "constraintZones": [
+    {
+      "name": "Constraints Zone",
+      "minWaypointRelativePos": 0.377018043684718,
+      "maxWaypointRelativePos": 0.925899280575532,
+      "constraints": {
+        "maxVelocity": 1.0,
+        "maxAcceleration": 2.0,
+        "maxAngularVelocity": 1000.0,
+        "maxAngularAcceleration": 1000.0,
+        "nominalVoltage": 12.0,
+        "unlimited": false
+      }
+    }
+  ],
+  "pointTowardsZones": [],
+  "eventMarkers": [
+    {
+      "name": "Ground Intake",
+      "waypointRelativePos": 0.0,
+      "endWaypointRelativePos": null,
+      "command": {
+        "type": "named",
+        "data": {
+          "name": "Intake Ground"
+        }
+      }
+    },
+    {
+      "name": "Run Gripper",
+      "waypointRelativePos": 0.0,
+      "endWaypointRelativePos": 0.1489208633093491,
+      "command": {
+        "type": "named",
+        "data": {
+          "name": "Run Gripper"
+        }
+      }
+    },
+    {
+      "name": "Stow",
+      "waypointRelativePos": 1.5474820143884815,
+      "endWaypointRelativePos": null,
+      "command": {
+        "type": "named",
+        "data": {
+          "name": "Auto Stow"
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 4.75,
+    "maxAcceleration": 5.0,
+    "maxAngularVelocity": 1000.0,
+    "maxAngularAcceleration": 1000.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 1.0,
+    "rotation": 0.0
+  },
+  "reversed": false,
+  "folder": "CenterCoralLeftGround",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 0.0
+  },
+  "useDefaultConstraints": false
+}

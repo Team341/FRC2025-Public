@@ -1,0 +1,152 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Central Path 1"
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "Align Left"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "L4"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Score"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Stow for Algae"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "algaeSwap"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Algae Low"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Intake Algae"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Central Path 1 To Net"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Score Algae"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Central Net to 2"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Align Center"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Algae High"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Intake Algae"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Central Path 2 To Net"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Score Algae"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Central Net to 3"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Align Left"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Algae High"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Intake Algae"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Central 3 to net"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Score Algae"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": "Center",
+  "choreoAuto": false
+}

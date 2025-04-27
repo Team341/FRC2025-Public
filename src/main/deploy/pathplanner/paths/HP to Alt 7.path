@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 1.1628073770491802,
+        "y": 7.003944672131147
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 1.8820696721311478,
+        "y": 6.680276639344262
+      },
+      "isLocked": false,
+      "linkedName": "Four L4 Left 11 to HP End"
+    },
+    {
+      "anchor": {
+        "x": 3.164754098360655,
+        "y": 4.222797131147541
+      },
+      "prevControl": {
+        "x": 2.164754098360655,
+        "y": 4.222797131147541
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.75,
+    "maxAcceleration": 50.0,
+    "maxAngularVelocity": 1000.0,
+    "maxAngularAcceleration": 1000.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 0.0
+  },
+  "reversed": false,
+  "folder": "Four L4 Left Paths",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": -54.11786275379582
+  },
+  "useDefaultConstraints": false
+}

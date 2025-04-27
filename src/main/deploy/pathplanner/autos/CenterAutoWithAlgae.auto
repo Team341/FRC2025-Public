@@ -1,0 +1,152 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Central Path 1"
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "Align Left"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "L4"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Score"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Stow for Algae"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "algaeSwap"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Algae Low"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Intake Algae"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Central 1 to Score"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Align Processor"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Score Algae"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Central Score 1 to A2"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Align Center"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Algae High"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Intake Algae"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Central A2 to Score"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Align Processor"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Score Algae"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Central Score 2 to A3"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Align Left"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Algae High"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Intake Algae"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": "Center",
+  "choreoAuto": false
+}

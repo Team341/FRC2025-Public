@@ -1,0 +1,77 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 5.346516393442624,
+        "y": 2.7602971311475404
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 6.497336065573771,
+        "y": 1.5974897540983604
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 1.1505,
+        "y": 0.9829999999999995
+      },
+      "prevControl": {
+        "x": 1.3908809869102057,
+        "y": 1.0516802819743445
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "HP Right Going In"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.3,
+      "rotationDegrees": 119.99999999999999
+    },
+    {
+      "waypointRelativePos": 0.7646033129904205,
+      "rotationDegrees": 54.345
+    }
+  ],
+  "constraintZones": [
+    {
+      "name": "Constraints Zone",
+      "minWaypointRelativePos": 0.6413669064748186,
+      "maxWaypointRelativePos": 1.0,
+      "constraints": {
+        "maxVelocity": 1.5,
+        "maxAcceleration": 2.0,
+        "maxAngularVelocity": 1000.0,
+        "maxAngularAcceleration": 1000.0,
+        "nominalVoltage": 12.0,
+        "unlimited": false
+      }
+    }
+  ],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.75,
+    "maxAcceleration": 5.0,
+    "maxAngularVelocity": 1000.0,
+    "maxAngularAcceleration": 1000.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 54.344671902099684
+  },
+  "reversed": false,
+  "folder": "Four L4 Right Paths",
+  "idealStartingState": {
+    "velocity": 2.0,
+    "rotation": 119.99999999999999
+  },
+  "useDefaultConstraints": false
+}
